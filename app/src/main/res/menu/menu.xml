@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Exit"
+        android:id="@+id/exit"></item>
+    <item
+        android:title="Setting"
+        android:id="@+id/setting"></item>
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"></item>
+    <item
+        android:title="Share"
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always"></item>
+    <item
+        android:title="Feedback"
+        android:id="@+id/feedback">
+        <menu>
+            <item
+                android:title="omaissatti42@gmail.com"
+                android:id="@+id/gmail"
+                ></item>
+            <item
+                android:title="http://www.facebook.com/omais.satti.3"
+                android:id="@+id/facebook"
+                ></item>
+        </menu>
+    </item>
+</menu>

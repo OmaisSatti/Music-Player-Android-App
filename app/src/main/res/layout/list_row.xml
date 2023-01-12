@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/musiclogo2"
+        android:id="@+id/myImg"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/myImg"
+        android:layout_marginLeft="20dp"
+        android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:id="@+id/tvName"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/myImg"
+        android:layout_marginLeft="20dp"
+        android:text="Des"
+        android:layout_below="@id/tvName"
+        android:maxLines="2"
+        android:maxLength="50"
+        android:singleLine="true"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:id="@+id/tvDes"></TextView>
+</RelativeLayout>
